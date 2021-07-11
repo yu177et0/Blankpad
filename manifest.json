@@ -1,5 +1,5 @@
 {
-    "name": "Blank Pad",
+    "name": "Blankpad",
     "version": "1.0",
     "manifest_version": 2,
     "description": "A simple notepad extension for Google Chrome",
@@ -10,7 +10,7 @@
       },
     "browser_action":{
         "default_icon": "img/icon48.png",
-        "default_title": "Blank Pad"
+        "default_title": "Blankpad"
     },
     "background":{
         "scripts":[
