@@ -1,3 +1,3 @@
-chrome.browserAction.onClicked.addListener(function(tab) {
-    chrome.tabs.create({url: 'html/blank.html' });
+chrome.action.onClicked.addListener(async (tab) => {
+  chrome.tabs.create({url: 'html/blank.html' });
 });
